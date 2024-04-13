@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576C4D262BC916BE0026B444 /* ExtensionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D252BC916BE0026B444 /* ExtensionCollectionView.swift */; };
+		576C4D282BC922740026B444 /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D272BC922740026B444 /* AnimalCell.swift */; };
+		576C4D2A2BC931BF0026B444 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D292BC931BF0026B444 /* HeaderView.swift */; };
+		576C4D2C2BC968080026B444 /* DetailAnimalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C4D2B2BC968080026B444 /* DetailAnimalController.swift */; };
 		577612212BC6D65300A94B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577612202BC6D65300A94B38 /* AppDelegate.swift */; };
 		577612232BC6D65300A94B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577612222BC6D65300A94B38 /* SceneDelegate.swift */; };
 		577612282BC6D65300A94B38 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 577612272BC6D65300A94B38 /* Base */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		576C4D252BC916BE0026B444 /* ExtensionCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCollectionView.swift; sourceTree = "<group>"; };
+		576C4D272BC922740026B444 /* AnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
+		576C4D292BC931BF0026B444 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		576C4D2B2BC968080026B444 /* DetailAnimalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAnimalController.swift; sourceTree = "<group>"; };
 		5776121D2BC6D65300A94B38 /* AnimalsGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577612202BC6D65300A94B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		577612222BC6D65300A94B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				577612262BC6D65300A94B38 /* Main.storyboard */,
+				576C4D272BC922740026B444 /* AnimalCell.swift */,
+				576C4D292BC931BF0026B444 /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				577612432BC6E95D00A94B38 /* AnilamsCollectionController.swift */,
+				576C4D252BC916BE0026B444 /* ExtensionCollectionView.swift */,
+				576C4D2B2BC968080026B444 /* DetailAnimalController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,10 +188,14 @@
 			files = (
 				577612442BC6E95D00A94B38 /* AnilamsCollectionController.swift in Sources */,
 				577612402BC6DC9F00A94B38 /* Datas.swift in Sources */,
+				576C4D2C2BC968080026B444 /* DetailAnimalController.swift in Sources */,
 				5776123A2BC6D84F00A94B38 /* Animal.swift in Sources */,
 				577612212BC6D65300A94B38 /* AppDelegate.swift in Sources */,
 				5776123E2BC6DA8E00A94B38 /* AnimalCategory.swift in Sources */,
+				576C4D2A2BC931BF0026B444 /* HeaderView.swift in Sources */,
+				576C4D262BC916BE0026B444 /* ExtensionCollectionView.swift in Sources */,
 				5776123C2BC6D9FC00A94B38 /* Protection.swift in Sources */,
+				576C4D282BC922740026B444 /* AnimalCell.swift in Sources */,
 				577612232BC6D65300A94B38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
